@@ -1,0 +1,34 @@
+Pertemuan Pertama
+
+#####Jika Error
+DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
+bcdedit /set hypervisorlaunchtype auto
+dan Turn Windows features on or off aktifkan Virtual ada 3 tu
+#######
+
+- docker pull hello-world ->untuk pull image hello world
+- docker images -> untuk melihat images
+- docker run hello-world ->untuk menjalan images hello-world
+- docker ps -a ->perintah untuk melihat container apa saja yang berjalan sekarang
+- docker run --name mardonihello hello-world ->mendublicate container dari image hello-world
+- docker container rm mardonihello -->untuk menghapus container mardonihello
+- docker container rm brave_elgamal -->untuk menghapus container brave_elgamal
+- docker images
+- docker image rm d2c94e258dcb ->untuk menghapus image yang ber id d2c94e258dcb
+- docker pull nginx ->untuk pull image nginx
+- docker images
+- docker run nginx
+- docker run --name nginx1 -p 8800:80 -d nginx -> menjalan imgae nginx dengan nama nginx1 dan port 8800:80 denga -d artinya dibelkang/background
+- docker run --name nginx2 -p 8801:80 -d nginx
+- docker exec -it nginx2 bash ->untuk masuk ke dalam docker
+- ls ->untuk melihat isi 
+- cd /usr/share/nginx/html
+- cat index.html
+- apt-get update ->agar update dan bisa melakukan cat
+- apt-get install nano ->menginstall nano
+- nano index.html
+
+###pertemuan kedua###
+- 
+
+###pertemuan ketiga latihan###
