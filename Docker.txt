@@ -29,6 +29,12 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - nano index.html
 
 ###pertemuan kedua###
-- 
+- buat file folder dan kemudian dibuka pada visual studio code dilanjutkan dengan membuka folder tersebut
+- buat file Dockerfile
+- docker build -t image-mardoni . ->untuk mendownload image dengan nama image-mardoni
+- docker run --name halomardoni1 image-mardoni -->membuat container dengan nama halomardoni1 dan imagenya image mardoni
+- membuat file docker lagi (dockerfile2)
+- docker build -t image-mardoni2 --file dockerfile2 .  ->dengan memangil nama file ya
+
 
 ###pertemuan ketiga latihan###
