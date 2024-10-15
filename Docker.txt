@@ -35,6 +35,7 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - docker run --name halomardoni1 image-mardoni -->membuat container dengan nama halomardoni1 dan imagenya image mardoni
 - membuat file docker lagi (dockerfile2)
 - docker build -t image-mardoni2 --file dockerfile2 .  ->dengan memangil nama file ya
-
+- docker run --name halomardoni2 image-mardoni2
+- docker build -t image-mardoni3 --file dockerfile3 .
 
 ###pertemuan ketiga latihan###
