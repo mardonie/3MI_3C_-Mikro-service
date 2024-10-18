@@ -39,4 +39,5 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - docker build -t image-mardoni3 --file dockerfile3 .
 - docker run -it --name halomardoni3 image-mardoni3 bash  -->it(interaktif terminal)
 - nantik kalau kita berhasil nantik muncul root@dfsdf:/home/coba
+- docker build -t image-mardoni4 --file Dockerfile4 .
 ###pertemuan ketiga latihan###

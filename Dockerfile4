@@ -5,6 +5,9 @@ RUN apt-get update
 
 #kiti biki direktori didalam container
 WORKDIR /home/coba
-
+#kita buat file3.txt -->isinya adalah di dalam echo
+RUN echo "Halo ini saya dari container 4" >file3.txt
+#kita mencopy file lokal laptop ke container /home/coba
+COPY folder4 /home/coba/
 #cmd ini dijalankan ketika kita runing container
 CMD ["echo", "Hello dari container 2 ..."]
