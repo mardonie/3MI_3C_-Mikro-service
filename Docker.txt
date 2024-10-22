@@ -48,4 +48,6 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - docker run --name nginx3 -v  D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html -p 8080:80 -d nginx
 - PadaWindows
 - docker run  --name nginx3 -v 'D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html' -p 8080:80 -d nginx
+- docker run  --name nginx4 -v 'D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html' -p 8081:80 -d nginx
+- jika di rubah file index2.html di akan berubah semua container
 ###pertemuan ketiga latihan###
