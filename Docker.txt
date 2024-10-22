@@ -28,7 +28,8 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - apt-get install nano ->menginstall nano
 - nano index.html
 
-###pertemuan kedua###
+###pertemuan kedua docker image###
+
 - buat file folder dan kemudian dibuka pada visual studio code dilanjutkan dengan membuka folder tersebut
 - buat file Dockerfile
 - docker build -t image-mardoni . ->untuk mendownload image dengan nama image-mardoni
@@ -41,4 +42,10 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - nantik kalau kita berhasil nantik muncul root@dfsdf:/home/coba
 - docker build -t image-mardoni4 --file Dockerfile4 .
 - docker run -it --name halomardoni4 image-mardoni4 bash -->membuat container dari image diatasnya
+
+
+###docker volume 
+- docker run --name nginx3 -v  D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html -p 8080:80 -d nginx
+- PadaWindows
+- docker run  --name nginx3 -v 'D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html' -p 8080:80 -d nginx
 ###pertemuan ketiga latihan###
