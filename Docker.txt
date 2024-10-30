@@ -63,3 +63,11 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - jika tidak bisa lihat ip phpmyadmin
 - docker inspect --type=container phpmyadmin
 - docker network connect network1 phpmyadmin->menghubungkan netwrok dalam satu jaringan mysql
+
+### Docker Compose ###########
+- docker ps -a
+- docker container prune
+- docker image prune -a
+- docker network prune
+- buat terlebih dahulu file docker-compose.yml dengan scriptnya
+- docker compose up -d
