@@ -1,0 +1,15 @@
+version: '3'
+service:
+  nginx1:
+    image: nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html
+  nginx2:
+    image: nginx
+    ports:
+      - "8081:80"
+    valumes:
+      - D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/nginx/html
+
