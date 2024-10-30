@@ -50,4 +50,16 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - docker run  --name nginx3 -v 'D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html' -p 8080:80 -d nginx
 - docker run  --name nginx4 -v 'D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\docker_volume\html1:/usr/share/nginx/html' -p 8081:80 -d nginx
 - jika di rubah file index2.html di akan berubah semua container
+
 ###pertemuan ketiga latihan###
+###docker network###
+- docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_ROOT_HOST=% -e MYSQL_ROOT_DATABASE=coba -v 'D:\Kerja\Politeknik Negeri Padang\Perkuliahan\Rabu 3MI-3C Micro Service\Catatan\3MI_3C_-Mikro-service\network\mysql_data:/var/lib/mysql' -d mysql
+005539d755c87ddad0a7d17730059f0b92c0a2e222dab882638bf9b2375f1b11 -->membuat container mysql
+- docker network create network1 -->membuat network
+- docker inspect --type=container mysql -->untuk melihat ip container
+- docker network connect network1 mysql-->menghubungkan network1 ke mysql
+- docker run --name phpmyadmin -d -e PMA_HOST=172.18.0.2 -p 8082:80 phpmyadmin -->membuat container php
+- kemudian ke docker destop buka phpmyadmin dan kemudian root 123456
+- jika tidak bisa lihat ip phpmyadmin
+- docker inspect --type=container phpmyadmin
+- docker network connect network1 phpmyadmin->menghubungkan netwrok dalam satu jaringan mysql
