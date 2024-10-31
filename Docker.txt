@@ -72,5 +72,11 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - buat terlebih dahulu file docker-compose.yml dengan scriptnya
 - docker compose up -d
 - docker compose down -->untuk mematikan docker compose
-- docker compose -f docker-compose-mardoni.yml up -d -->untuk menentukan nama filenya
-- docker compose -f docker-compose-mardoni.yml down -->untuk menghentikan dengan nama file
+
+
+#####
+- buat folder docker_materi
+- buat dockerfile
+- git clone https://github.com/rizkipm/profile_repo_html.git
+- docker build -t mardonie/website-portofolio --file Dockerfile . --> buat image sesuai dari repository docker hub
+
