@@ -79,4 +79,12 @@ dan Turn Windows features on or off aktifkan Virtual ada 3 tu
 - buat dockerfile
 - git clone https://github.com/rizkipm/profile_repo_html.git
 - docker build -t mardonie/website-portofolio --file Dockerfile . --> buat image sesuai dari repository docker hub
+- docker login 
+- docker push mardonie/website-portofolio
+- hapus image terlebih dahulu
+- docker pull mardonie/website-portofolio
+- docker run --name website-portofolio -p 8080:80 -d mardonie/website-portofolio
+- maka container dibuka bisa
+
+
 

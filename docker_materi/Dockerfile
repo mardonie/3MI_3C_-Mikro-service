@@ -1,3 +1,3 @@
 FROM nginx
 LABEL maintainer="mardonie@gmail.com"
-COPY website-portofolio /usr/share/nginx/html
+COPY profile_repo_html /usr/share/nginx/html
